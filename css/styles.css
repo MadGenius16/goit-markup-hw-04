@@ -207,7 +207,7 @@ color: #2E2F42;
     margin-right: auto;
        
 }
-.hero .title-button{
+.section-page-title .title-button{
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
