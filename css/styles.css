@@ -138,6 +138,7 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
      }
 
  .page-address .address-link:hover,
@@ -146,14 +147,18 @@ color: #2E2F42;
  }
 
  .section-page-title {
-    background: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img11.jpg);
     flex-shrink: 0;
     padding: 188px 0;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
      }
 
      .hero  {
-        background-image: url(./images/img11.jpg);
-        background-color: rgba(46, 47, 66, 0.70);
+        
+       
      }
      
          .hero-title {
@@ -199,6 +204,7 @@ color: #2E2F42;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .title-button:hover,
