@@ -205,17 +205,13 @@ color: #2E2F42;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
        
 }
-.section-page-title .title-button{
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
 
 .title-button:hover,
 .title-button:focus {
-     background-color: #404BBF;
+     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     }
 
 .section-advantages {
@@ -267,11 +263,6 @@ gap: 24px;
         background-color:#F4F4FD;
         margin-bottom: 8px;
     }
-
-
-
-
-
 
 
 
@@ -377,6 +368,12 @@ padding: 32px 0;
     text-align: center;
     }
 
+
+
+
+
+
+
 .section-portfolio-title {
     padding: 120px 0;
 }
@@ -391,7 +388,6 @@ padding: 32px 0;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 
-
 }
 .section-portfolio-title .section-our-portfolio {
     display: flex;
@@ -400,8 +396,14 @@ padding: 32px 0;
     row-gap: 48px;
 }
 
+.section-portfolio-title .section-title-item:hover {
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+
 .section-our-portfolio .section-title-item {
 width: calc((100% - 48px) / 3);
+
 }
 
 .section-our-portfolio .application-name {
