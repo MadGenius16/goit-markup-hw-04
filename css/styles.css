@@ -464,6 +464,11 @@ margin-bottom: 8px;
     padding: 100px 0;
     }
 
+.page-footer .container{
+align-items: baseline;
+display: flex;
+}
+
 
 .logo-box {
     margin-right: 120px
@@ -510,6 +515,7 @@ margin-bottom: 8px;
 }
 .page-footer .social-box {
     display: flex;
+    gap: 16px;
 }
 
 
