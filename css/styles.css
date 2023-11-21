@@ -171,16 +171,7 @@ color: #2E2F42;
              margin-bottom: 48px;
                       }
 
- 
-.hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.section-page-title .title-button {
+ .section-page-title .title-button {
     color: #FFF;
     text-align: center;
     font-size: 16px;
