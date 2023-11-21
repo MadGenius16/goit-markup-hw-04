@@ -209,10 +209,10 @@ color: #2E2F42;
        
 }
 
-.section-page-titleher.title-button:hover,
-.section-page-title.title-button:focus {
-     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+.section-page-title .title-button:hover,
+.section-page-title .title-button:focus {
+    background-color: #404BBF;
+}
 
 .section-advantages {
     padding: 120px 0;
