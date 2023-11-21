@@ -513,12 +513,10 @@ display: flex;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
-.page-footer .social-box {
-    display: flex;
-   
-}
+
 .social-network .social-icon {
     gap: 16px;
+    display: flex;
 }
 
 .social-network .link:hover, 
