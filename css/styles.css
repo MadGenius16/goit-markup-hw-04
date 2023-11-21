@@ -515,10 +515,16 @@ display: flex;
 }
 .page-footer .social-box {
     display: flex;
+   
+}
+.social-network .social-icon {
     gap: 16px;
 }
 
-
+.social-network .link:hover, 
+.social-network .link:focus {
+background-color: #31d0aa;
+}
 
 
 
