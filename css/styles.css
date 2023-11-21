@@ -189,7 +189,7 @@ color: #2E2F42;
     
 }
 
-.title-button {
+.section-page-title .title-button {
     color: #FFF;
     text-align: center;
     font-size: 16px;
@@ -209,8 +209,8 @@ color: #2E2F42;
        
 }
 
-.hero.title-button:hover,
-.hero.title-button:focus {
+.section-page-titleher.title-button:hover,
+.section-page-title.title-button:focus {
      background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
