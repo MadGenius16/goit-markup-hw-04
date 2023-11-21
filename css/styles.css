@@ -209,9 +209,9 @@ color: #2E2F42;
        
 }
 
-.title-button:hover,
-.title-button:focus {
-     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+.hero.title-button:hover,
+.hero.title-button:focus {
+     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .section-advantages {
