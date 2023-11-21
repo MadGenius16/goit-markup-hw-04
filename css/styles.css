@@ -333,8 +333,8 @@ gap: 24px;
 }
 
 
-.social-icon .link:hover,
-.social-icon .link:focus {
+.social-network .link:hover,
+.social-network .link:focus {
     background-color: #404BBF;
 }
 
