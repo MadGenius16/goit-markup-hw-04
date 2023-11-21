@@ -510,9 +510,21 @@ display: flex;
     margin-bottom: 16px;
 }
 
-.social-box .social-network {
+.page-footer .social-box .social-network {
     gap: 16px;
     display: flex;
+}
+
+
+.page-footer .social-network .link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #f4f4fd;
 }
 
 .social-network .link:hover, 
