@@ -127,7 +127,7 @@ color: #2E2F42;
     height: 4px;
     width: 100%;
     border-radius: 2px;
-    border: 4px solid #404BBF;
+    background-color:  #404BBF;
 }
 
  .page-address-title {
