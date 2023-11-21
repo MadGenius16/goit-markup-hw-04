@@ -514,7 +514,7 @@ display: flex;
     margin-bottom: 16px;
 }
 
-.social-network .social-icon {
+.social-box .social-network {
     gap: 16px;
     display: flex;
 }
